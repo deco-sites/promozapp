@@ -36,6 +36,7 @@ export default function Hero({
 }: HeroProps) {
     return (
         <section
+            id="acesse"
             class="relative bg-cover bg-center py-16 lg:py-28"
             style={{
                 backgroundImage: background

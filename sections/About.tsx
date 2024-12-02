@@ -27,7 +27,7 @@ export default function About({
     altText = "Plataforma PromoZap",
 }: AboutProps) {
     return (
-        <section id="about" class="bg-gray-200 py-20">
+        <section id="sobre" class="bg-gray-200 py-20">
             <div class="container mx-auto px-4 text-center">
                 <h2 class="text-3xl font-bold mb-8">{title}</h2>
                 <p class="text-xl mb-8">{description}</p>

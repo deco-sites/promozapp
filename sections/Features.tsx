@@ -1,4 +1,5 @@
 import { ImageWidget } from "apps/admin/widgets.ts";
+
 export interface Feature {
     /**
      * @format text
@@ -69,12 +70,16 @@ export default function Features({
     ],
 }: FeaturesProps) {
     return (
-        <section id="features" class="py-20">
+        <section id="funcionalidades" class="py-20">
             <div class="container mx-auto px-4">
                 <h2 class="text-3xl font-bold text-center mb-12">{title}</h2>
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                     {features.map((feature, index) => (
-                        <div key={index} class="bg-white rounded-lg shadow-md p-6">
+                        <div
+                            key={index}
+                            id={`feature-${index}`} // Optional unique ID
+                            class="bg-white rounded-lg shadow-md p-6"
+                        >
                             <div class="text-3xl mb-4" style={{ color: secondaryColor }}>
                                 {feature.emoji}
                             </div>
