@@ -58,7 +58,7 @@
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
         "__resolveType": "site/sections/About.tsx",
-        "title": "<p>Sobre o PromoZap</p>",
+        "title": "Sobre o PromoZap",
         "description": "O PromoZap é uma plataforma revolucionária que conecta seus clientes às melhores promoções através do WhatsApp. Nossa missão é simplificar promoções e vendas, tornando mais fácil para você comprar e vender."
       }
     },
