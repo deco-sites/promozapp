@@ -12,7 +12,7 @@
       "primaryColor": "#25D366",
       "ctaButtonText": "Clique aqui para conhecer o PromoZap",
       "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/promoz-app/bbb0c602-e7b5-4934-ab8b-f25afed322ac/Screenshot-2024-11-30-at-18.28.55.png",
-      "logoImage": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/promoz-app/badb0080-a054-47e6-9ee1-180243ca2ffc/Screenshot-2024-11-30-at-18.24.54.png"
+      "logoImage": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/promozapp/dae44656-780f-4c38-8785-1da81d2a1a63/Remove-bg.ai_1733169752991.png"
     },
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
@@ -58,10 +58,8 @@
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
         "__resolveType": "site/sections/About.tsx",
-        "title": "Sobre o PromoZap",
-        "description": "O PromoZap é uma plataforma revolucionária que conecta seus clientes às melhores promoções através do WhatsApp. Nossa missão é simplificar promoções e vendas, tornando mais fácil para você comprar e vender.",
-        "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/1818/6fe9404a-f69c-472a-b521-78f6c1f87326",
-        "altText": "Plataforma PromoZap"
+        "title": "<p>Sobre o PromoZap</p>",
+        "description": "O PromoZap é uma plataforma revolucionária que conecta seus clientes às melhores promoções através do WhatsApp. Nossa missão é simplificar promoções e vendas, tornando mais fácil para você comprar e vender."
       }
     },
     {

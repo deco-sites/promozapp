@@ -31,13 +31,6 @@ export default function About({
             <div class="container mx-auto px-4 text-center">
                 <h2 class="text-3xl font-bold mb-8">{title}</h2>
                 <p class="text-xl mb-8">{description}</p>
-                {image && (
-                    <img
-                        src={image}
-                        alt={altText}
-                        class="mx-auto rounded-lg shadow-lg"
-                    />
-                )}
             </div>
         </section>
     );
