@@ -25,21 +25,24 @@ export default function JoinUs({
     description = "Pronto para impulsionar o seu negócio com o PromoZap? Entre em contato conosco hoje mesmo!",
     secondaryColor = "#128C7E",
     buttonText = "Entre em Contato",
-}: JoinUsProps) {
+    buttonLink = "https://wa.me/558393975190?text=Ol%C3%A1%2C+gostaria+de+criar+uma+conta.+Meu+c%C3%B3digo+de+convite+%C3%A9%3A+7W4Zc6wVz", // Add a default link
+}: JoinUsProps & { buttonLink?: string }) {
     return (
         <section id="contact" class="py-20">
             <div class="container mx-auto px-4 text-center">
                 <h2 class="text-3xl font-bold mb-8">{title}</h2>
                 <p class="text-xl mb-8">{description}</p>
-                <button
-                    class="btn btn-secondary btn-lg text-white"
-                    style={{
-                        backgroundColor: secondaryColor,
-                        borderColor: secondaryColor,
-                    }}
-                >
-                    {buttonText}
-                </button>
+                <a href={buttonLink}>
+                    <button
+                        class="btn btn-secondary btn-lg text-white"
+                        style={{
+                            backgroundColor: secondaryColor,
+                            borderColor: secondaryColor,
+                        }}
+                    >
+                        {buttonText}
+                    </button>
+                </a>
             </div>
         </section>
     );
