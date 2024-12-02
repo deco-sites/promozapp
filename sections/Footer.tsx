@@ -1,43 +1,22 @@
-import { ImageWidget } from "apps/admin/widgets.ts";
-import Image from "apps/website/components/Image.tsx";
+import type { ImageWidget } from "apps/admin/widgets.ts";
 
-interface Props {
-  href?: string;
-  image?: ImageWidget;
+export interface FooterProps {
+  copyright?: string;
+  logo?: ImageWidget;
   alt?: string;
-  width?: number;
-  height?: number;
-  text?: string;
 }
 
-function Footer({
-  image =
-    "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4959/d7aa9290-074f-417c-99c3-5b0587c8c2ee",
-  href = "https://deco.cx/",
-  text = "Made with",
-  alt = "Made with deco.cx",
-  height = 20,
-  width = 50,
-}: Props) {
+export default function Footer({
+  copyright = "© 2023 PromoZap. All rights reserved.",
+  logo = "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/1818/ff6bb37e-0eab-40e1-a454-86856efc278e",
+  alt = "PromoZap Logo",
+}: FooterProps) {
   return (
-    <div class="py-8 lg:px-0 px-6 fixed bottom-0 w-full mx-auto">
-      <a
-        href={href}
-        class="flex flex-row gap-1 items-center justify-center text-xs"
-        target="_blank"
-      >
-        {text && <p>{text}</p>}
-        {image && (
-          <Image
-            src={image || ""}
-            alt={alt || ""}
-            height={height || 20}
-            width={width || 50}
-          />
-        )}
-      </a>
-    </div>
+    <footer class="bg-gray-800 text-white py-8">
+      <div class="container mx-auto px-4 text-center">
+        <img src={logo} alt={alt} class="h-8 mx-auto mb-4" />
+        <p>{copyright}</p>
+      </div>
+    </footer>
   );
 }
-
-export default Footer;

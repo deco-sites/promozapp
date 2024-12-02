@@ -1,0 +1,22 @@
+{
+    "__resolveType": "site/sections/Header.tsx",
+    "navigation": {
+        "links": [
+            {
+                "label": "Acesse",
+                "url": "#acesse"
+            },
+            {
+                "label": "Funcionalidades",
+                "url": "#funcionalidades"
+            },
+            {
+                "label": "Sobre",
+                "url": "#sobre"
+            }
+        ],
+        "buttons": []
+    },
+    "logo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/promoz-app/8bf2d363-9967-483e-9828-a2fb0a8a64fb/Screenshot-2024-11-30-at-18.42.09.png",
+    "alt": "Promozap Logo"
+}

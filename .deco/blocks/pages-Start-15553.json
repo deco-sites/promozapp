@@ -3,13 +3,83 @@
   "path": "/",
   "sections": [
     {
-      "__resolveType": "site/sections/ItWorks.tsx",
-      "name": "<p>It Works!</p>",
-      "count": 1
+      "__resolveType": "Header"
+    },
+    {
+      "__resolveType": "site/sections/Hero.tsx",
+      "title": "<p>PromoZap</p>",
+      "description": "Venha descobrir a melhor plataforma de compra e venda do Brasil e comece a acumular suas ZapMoedas antes de todo mundo! Tenha acesso a promoções exclusivas e troque suas ZapMoedas por mais descontos, cashback e muito mais.",
+      "primaryColor": "#25D366",
+      "ctaButtonText": "Clique aqui para conhecer o PromoZap",
+      "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/promoz-app/bbb0c602-e7b5-4934-ab8b-f25afed322ac/Screenshot-2024-11-30-at-18.28.55.png",
+      "logoImage": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/promoz-app/badb0080-a054-47e6-9ee1-180243ca2ffc/Screenshot-2024-11-30-at-18.24.54.png"
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Features.tsx",
+        "title": "Principais Funcionalidades",
+        "features": [
+          {
+            "title": "Fácil de usar",
+            "description": "Navegue pela plataforma sem dificuldades, tudo diretamente pelo WhatsApp.",
+            "emoji": "🚀"
+          },
+          {
+            "title": "Promoções exclusivas",
+            "description": "Aproveite ofertas únicas para os usuários do PromoZap com as nossas lojas parceiras.",
+            "emoji": "💥"
+          },
+          {
+            "title": "Vendas diretas no WhatsApp",
+            "description": "Venda diretamente para outras pessoas via WhatsApp, com eficiência e praticidade.",
+            "emoji": "💬"
+          },
+          {
+            "title": "Aumente sua base de clientes",
+            "description": "Nunca foi tão fácil conquistar novos clientes e amplie o alcance do seu negócio.",
+            "emoji": "👥"
+          },
+          {
+            "title": "Impulsione suas vendas",
+            "description": "Utilize nossas ferramentas para melhorar suas vendas e resultados.",
+            "emoji": "📈"
+          },
+          {
+            "title": "Comunicação em tempo real",
+            "description": "Tenha todas as promoções e produtos em tempo real na palma da sua mão",
+            "emoji": "⚡"
+          }
+        ],
+        "secondaryColor": "#128C7E"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/About.tsx",
+        "title": "Sobre o PromoZap",
+        "description": "O PromoZap é uma plataforma revolucionária que conecta seus clientes às melhores promoções através do WhatsApp. Nossa missão é simplificar promoções e vendas, tornando mais fácil para você comprar e vender.",
+        "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/1818/6fe9404a-f69c-472a-b521-78f6c1f87326",
+        "altText": "Plataforma PromoZap"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/JoinUs.tsx",
+        "title": "Junte-se a Nós",
+        "description": "Pronto para se juntar ao PromoZap? Só clicar no botão para falar com a gente no Whats!",
+        "secondaryColor": "#128C7E",
+        "buttonText": "Entre em Contato"
+      }
     },
     {
       "__resolveType": "Footer"
     }
   ],
-  "__resolveType": "website/pages/Page.tsx"
+  "__resolveType": "website/pages/Page.tsx",
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  }
 }

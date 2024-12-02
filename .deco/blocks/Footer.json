@@ -1,1 +1,10 @@
-{"__resolveType":"site/sections/Footer.tsx"}
+{
+    "__resolveType": "site/sections/Footer.tsx",
+    "links": [],
+    "bottomLinks": [],
+    "social": [],
+    "subscribe": {},
+    "logo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/promoz-app/bc9a6d4b-163e-4b59-9afa-b139c64597e7/Screenshot-2024-11-30-at-18.33.02.png",
+    "copyright": "© 2024 PromoZap. All rights reserved.",
+    "alt": "Promozap Text"
+}
